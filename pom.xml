@@ -6,7 +6,7 @@
     <url>https://github.com/clescot/kafka-connect-http</url>
     <groupId>io.github.clescot</groupId>
     <artifactId>kafka-connect-http</artifactId>
-    <version>0.8.151-SNAPSHOT</version>
+    <version>0.8.156-SNAPSHOT</version>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -47,8 +47,8 @@
         <jackson.version>2.20.1</jackson.version>
         <jacoco.version>0.8.12</jacoco.version>
         <json.assert.version>1.5.3</json.assert.version>
-        <junit.version>6.0.1</junit.version>
-        <logback.version>1.5.23</logback.version>
+        <junit.version>6.0.2</junit.version>
+        <logback.version>1.5.24</logback.version>
         <maven.compiler.release>17</maven.compiler.release>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -102,7 +102,7 @@
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.5.23</version>
+                <version>1.5.24</version>
             </dependency>
 
             <dependency>
@@ -431,7 +431,7 @@
                     <plugin>
                         <groupId>org.sonatype.central</groupId>
                         <artifactId>central-publishing-maven-plugin</artifactId>
-                        <version>0.9.0</version>
+                        <version>0.10.0</version>
                         <extensions>true</extensions>
                         <configuration>
                             <publishingServerId>central</publishingServerId>
