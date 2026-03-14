@@ -17,3 +17,7 @@ docs/.$http_sink_connector.drawio.bkp
 **/.project
 **/org.eclipse*
 **/.settings
+/kafka-connect-http-connectors/kafka-connect-http-connectors.ipr
+/kafka-connect-http-connectors/kafka-connect-http-connectors.iws
+/kafka-connect-http-connectors/.classpath
+/kafka-connect-http-connectors/.project
